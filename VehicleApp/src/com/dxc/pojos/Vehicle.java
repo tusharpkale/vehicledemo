@@ -33,7 +33,9 @@ public class Vehicle {
 	public void setCost(double cost) {
 		this.cost = cost;
 	}
-	
-	
 
+	@Override
+	public String toString() {
+		return "Vehicle [id=" + id + ", name=" + name + ", cost=" + cost + "]";
+	}
 }

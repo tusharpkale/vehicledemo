@@ -7,11 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-				<form action="vehicle/add">
-						Enter vehicle id - <input type="text" name="id"><br>
-						Enter vehicle name - <input type="text" name="name"><br>
-						Enter vehicle cost - <input type="text" name="cost"><br>
-						<input type="submit">
-				</form>
+				<a href="views/add.jsp"><h4>add vehicle</h4></a><br><br>
+				<a href="views/vehicle/show"><h4>display all vehicles</h4></a><br><br>
+				<a href="views/update1.jsp"><h4>update vehicle</h4></a><br><br>
+				<a href="views/remove.jsp"><h4>remove vehicle</h4></a><br><br>
 </body>
 </html>
